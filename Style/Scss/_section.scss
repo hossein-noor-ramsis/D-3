@@ -7,12 +7,17 @@ nav {
         color: #0d6efd;
     }
 
+    .nav-item a:hover {
+        color: #000000;
+    }
+
     .nav-item .active {
         font-weight: bold;
     }
 }
 
-.sec-2, .sec-3 .top {
+.sec-2,
+.sec-3 .top {
     i::before {
         font-size: 2rem;
         background-color: #ebeafb;
@@ -49,7 +54,8 @@ nav {
 }
 
 .sec-4 {
-    .carousel, .carousel img {
+    .carousel,
+    .carousel img {
         max-height: 25rem;
         max-width: 50rem;
         margin: auto;
@@ -79,6 +85,10 @@ footer {
     .border-bottom {
         border-bottom: 2px solid black !important;
     }
+
+    .unstyled-links a:hover {
+        color: #000000;
+    }
 }
 /* ===== end of section ===== */
 /* ===== start of function ===== */
@@ -100,4 +110,4 @@ footer {
         border-radius: 0.5rem;
     }
 }
-/* ===== end of function ===== */ 
+/* ===== end of function ===== */

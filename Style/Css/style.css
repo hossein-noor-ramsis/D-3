@@ -343,7 +343,7 @@ template {
   text-decoration: none;
 }
 
-.unstyled-links a {
+.unstyled-links li a {
   color: rgb(72, 72, 72);
   text-decoration: none;
 }
@@ -372,11 +372,15 @@ template {
 nav .nav-item a {
   color: #0d6efd;
 }
+nav .nav-item a:hover {
+  color: #000000;
+}
 nav .nav-item .active {
   font-weight: bold;
 }
 
-.sec-2 i::before, .sec-3 .top i::before {
+.sec-2 i::before,
+.sec-3 .top i::before {
   font-size: 2rem;
   background-color: #ebeafb;
   color: #0d6efd;
@@ -404,7 +408,8 @@ nav .nav-item .active {
   border-top: 1px solid rgb(0, 0, 0) !important;
 }
 
-.sec-4 .carousel, .sec-4 .carousel img {
+.sec-4 .carousel,
+.sec-4 .carousel img {
   max-height: 25rem;
   max-width: 50rem;
   margin: auto;
@@ -426,6 +431,9 @@ footer .social i::before {
 }
 footer .border-bottom {
   border-bottom: 2px solid black !important;
+}
+footer .unstyled-links a:hover {
+  color: #000000;
 }
 
 /* ===== end of section ===== */
