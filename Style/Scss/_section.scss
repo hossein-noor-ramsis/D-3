@@ -1,0 +1,103 @@
+/* ===== start of variable ===== */
+
+/* ===== end of variable ===== */
+/* ===== start of section ===== */
+nav {
+    .nav-item a {
+        color: #0d6efd;
+    }
+
+    .nav-item .active {
+        font-weight: bold;
+    }
+}
+
+.sec-2, .sec-3 .top {
+    i::before {
+        font-size: 2rem;
+        background-color: #ebeafb;
+        color: #0d6efd;
+        padding: 15px;
+        border-radius: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.sec-3 {
+    .check::before {
+        font-size: 1.6rem;
+        font-weight: bold;
+        transform: translate(0px, 5px);
+    }
+
+    .top:first-of-type p {
+        margin: 1rem auto;
+        width: 15rem;
+    }
+
+    .service {
+        height: 45rem;
+    }
+
+    .service:nth-child(2) .border-top {
+        border-top: 1px solid rgb(0, 0, 0) !important;
+    }
+
+    .border-top {
+        border-top: 1px solid rgb(0, 0, 0) !important;
+    }
+}
+
+.sec-4 {
+    .carousel, .carousel img {
+        max-height: 25rem;
+        max-width: 50rem;
+        margin: auto;
+    }
+}
+
+.sec-5 {
+    textarea {
+        resize: none;
+    }
+
+    .logo img {
+        max-width: 5rem;
+    }
+}
+
+footer {
+    .social {
+        width: 10rem;
+    }
+
+    .social i::before {
+        font-size: x-large;
+        color: #000000;
+    }
+
+    .border-bottom {
+        border-bottom: 2px solid black !important;
+    }
+}
+/* ===== end of section ===== */
+/* ===== start of function ===== */
+@media screen and (min-width: 992px) {
+    .sec-3 .service {
+        transition: 0.5s ease;
+    }
+
+    .card-body {
+        transition: 0.5s ease;
+    }
+
+    .sec-3 .service:hover {
+        transform: translate(0rem, -2rem);
+    }
+
+    .sec-3 .service:hover .card-body {
+        box-shadow: 0px 5px 16px rgba($color: #000000, $alpha: 0.3);
+        border-radius: 0.5rem;
+    }
+}
+/* ===== end of function ===== */ 
